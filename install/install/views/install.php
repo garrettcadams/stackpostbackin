@@ -45,10 +45,6 @@ if (!empty($installed_openssl_version) && $installed_openssl_version >= "1.0.1c"
 	$openssl_success = true;
 }
 
-//GD
-#if (extension_loaded('gd') && function_exists('gd_info')) {
-    $gd_success = true;
-}
 
 //allow_url_fopen
 if (ini_get('allow_url_fopen')) {
@@ -60,19 +56,11 @@ if (defined('PDO::ATTR_DRIVER_NAME')) {
     $pdo_success = true;
 }
 
-//mbstring
-#if(extension_loaded('mbstring') && function_exists('mb_get_info')){
-	$mbstring_success = true;
-}
 
 if(function_exists('mcrypt_encrypt')) {
     $mcrypt_success = true;
 }
 
-//EXIF
-#if(function_exists('exif_read_data')){
-	$exif_success = true;
-}
 
 //ZIP
 if (extension_loaded('zip')){
