@@ -1,7 +1,7 @@
 <?php
-define('DB_HOST', 'enter_db_host');
-define('DB_USER', 'enter_db_user');
-define('DB_PASS', 'enter_db_pass');
-define('DB_NAME', 'enter_db_name');
+define('DB_HOST', 'ec2-50-19-224-165.compute-1.amazonaws.com');
+define('DB_USER', 'vvjblohnfjmxke');
+define('DB_PASS', '353ce3a5cff59ecca287b3b291a1f1e3475761bde59e40f1ca598057fd2a5c9e');
+define('DB_NAME', 'd83oa6fpe6uocg');
 define('TIMEZONE', 'enter_timezone');
-define('ENCRYPTION_KEY', 'enter_encryption_key');
+define('ENCRYPTION_KEY', 'kptIvLWivbccG5mjwkeVlmSst1pQrdh7');
