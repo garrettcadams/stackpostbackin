@@ -4,10 +4,10 @@ $curl_success = false;
 $mysqli_success = false;
 $openssl_success = false;
 $pdo_success = false;
-$gd_success = false;
+#$gd_success = false;
 $zip_success = false;
-$mbstring_success = false;
-$exif_success = false;
+#$mbstring_success = false;
+#$exif_success = false;
 $mcrypt_success = false;
 $allow_url_fopen_success = false;
 $file_index_success = false;
@@ -46,7 +46,7 @@ if (!empty($installed_openssl_version) && $installed_openssl_version >= "1.0.1c"
 }
 
 //GD
-if (extension_loaded('gd') && function_exists('gd_info')) {
+#if (extension_loaded('gd') && function_exists('gd_info')) {
     $gd_success = true;
 }
 
@@ -61,7 +61,7 @@ if (defined('PDO::ATTR_DRIVER_NAME')) {
 }
 
 //mbstring
-if(extension_loaded('mbstring') && function_exists('mb_get_info')){
+#if(extension_loaded('mbstring') && function_exists('mb_get_info')){
 	$mbstring_success = true;
 }
 
@@ -70,7 +70,7 @@ if(function_exists('mcrypt_encrypt')) {
 }
 
 //EXIF
-if(function_exists('exif_read_data')){
+#if(function_exists('exif_read_data')){
 	$exif_success = true;
 }
 
