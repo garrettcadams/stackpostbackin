@@ -4,7 +4,7 @@
         "paypal/rest-api-sdk-php": "*",
         "matthiasmullie/minify": "^1.3",
         "lazyjsonmapper/lazyjsonmapper": "^1.6"
-        "ext-gd": "*",
+        "ext-gd" "*",
         "ext-exif": "*",
         "ext-mbstring": "*",
     },
