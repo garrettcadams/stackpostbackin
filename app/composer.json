@@ -1,0 +1,8 @@
+{
+    "require": {
+        "EHER/OAuth": "^1.0",
+        "paypal/rest-api-sdk-php": "*",
+        "matthiasmullie/minify": "^1.3",
+        "lazyjsonmapper/lazyjsonmapper": "^1.6"
+    }
+}
